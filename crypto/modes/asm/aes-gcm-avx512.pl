@@ -4812,7 +4812,7 @@ ___
 }
 
 $code .= <<___;
-.section .rodata align=16
+.data
 .align 16
 POLY:   .quad     0x0000000000000001, 0xC200000000000000
 
